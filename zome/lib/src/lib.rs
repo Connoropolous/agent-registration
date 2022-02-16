@@ -10,6 +10,7 @@
  */
 use hdk::prelude::*;
 use hdk::hash_path::path::Component;
+use holo_hash::AgentPubKey;
 
 use hc_zome_agent_registration_storage::{path_for_agent, get_root_anchor};
 
